@@ -28,7 +28,7 @@ export const MyWorks = [
     title: "Multi StopWatch",
     image: works5,
     description:
-      "RideMyWay is a full-stack carpooling platform built with React, Node.js, and PostgreSQL that connects drivers offering rides with passengers seeking transport. It features secure authentication with email verification, role-based access for drivers and passengers, and cookie-based sessions. Drivers can easily create and manage ride offers, while passengers can request, join, or cancel rides, all supported by real-time updates.",
+      "ReactTimer is a frontend application built with React and TypeScript that allows users to create and manage multiple stopwatches simultaneously. Each timer can be customized with a name and duration, and all timers can run independently or together, providing a smooth and interactive time-tracking experience.",
     tags: ["React", "TypeScript"],
     github: "#",
     demo: "#",

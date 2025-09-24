@@ -13,7 +13,8 @@
 }
 
 .works-subtitle {
-  color: #8b8b8b;
+  color: rgb(179, 182, 226);
+
   font-weight: 500;
 }
 
@@ -60,6 +61,10 @@ img {
   max-width: 400px;
   text-align: center;
   color: #cccccc;
+}
+
+.work-description p {
+  color: #ccd6f6;
 }
 
 .links {

@@ -34,16 +34,12 @@
 .intro {
   color: #64ffda;
   font-size: 1.2rem;
-  /* display: flex;
-    align-items: center;
-    gap: 8px; */
 }
 
 .my-name {
   font-size: 3.5rem;
   font-weight: bold;
   margin-top: 10px;
-  /* line-height: 1.2; */
   color: white;
 }
 
@@ -51,13 +47,11 @@
   font-size: 2.5rem;
   color: #8892b0;
   font-weight: 600;
-  /* margin-top: 10px; */
 }
 
 .description {
   color: #ccd6f6;
   font-size: 1rem;
-  /* margin-top: 15px; */
   line-height: 1.5;
   max-width: 500px;
 }
@@ -90,8 +84,6 @@
   position: relative;
   margin-top: 30px;
   margin-left: 10%;
-  /* bottom: 50px;
-    left: 50px; */
   font-size: 1.2rem;
   color: #64ffda;
   display: flex;
@@ -104,7 +96,7 @@
 
 .broken-box {
   width: 200px;
-  height: 50px;
+  height: 70px;
   position: absolute;
   border: 2px solid #64ffda;
   left: -10px;
@@ -152,13 +144,11 @@
     width: auto;
     display: flex;
     flex-direction: column;
-    /* position: relative; */
     margin: 0.5rem auto;
   }
 
   .subtitle {
     font-size: 2rem;
-    /* font-weight: 600; */
   }
 
   .my-name {
@@ -167,6 +157,7 @@
 
   .hero {
     padding: 1.5rem;
+    padding-left: 0;
   }
 
   .socials-links {
@@ -174,9 +165,12 @@
     position: relative;
     left: 0;
     top: 0;
-    /* display: flex; */
     flex-direction: row;
     justify-content: space-around;
     gap: 20px;
+  }
+
+  .broken-box {
+    height: 90px;
   }
 }

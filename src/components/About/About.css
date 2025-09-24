@@ -46,7 +46,6 @@
 
 .text-container {
   max-width: auto;
-  color: #cccccc;
   text-align: left;
   width: 500px;
 }
@@ -55,6 +54,7 @@
   margin-bottom: 15px;
   font-size: 18px;
   line-height: 1.6;
+  color: #ccd6f6;
 }
 
 .highlight {

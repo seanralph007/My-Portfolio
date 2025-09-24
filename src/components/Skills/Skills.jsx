@@ -1,6 +1,5 @@
 import React from "react";
 import { MySkills } from "../Utils/Info";
-// import { FaReact, FaHtml5, FaJs, FaCss3, FaNodeJs, Fa500Px } from "react-icons/fa";
 import "./Skills.css";
 
 function Skills() {
