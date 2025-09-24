@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+/* body {
+  background-color: #0A192F;
+} */
+
+.app-container {
+  animation: slideIn 1s ease-in-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+body {
+  background: linear-gradient(300deg, #1e5263, #000000, #020508);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+/* body {
+  background: linear-gradient(300deg, #00bfff, #0a192f, #0a192f);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+} */
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* @media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+} */

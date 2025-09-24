@@ -1,0 +1,95 @@
+.certifications-section {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.section-title {
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  /* text-transform: uppercase; */
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.certificate-subtitle {
+  color: rgb(179, 182, 226);
+  margin-bottom: 30px;
+}
+
+.certs-and-experience {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  justify-content: center;
+}
+
+.certs-and-experience div {
+  color: antiquewhite;
+  font-size: 1.3rem;
+}
+
+.edu-timeline {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  position: relative;
+  max-width: 600px;
+  margin: 3rem auto;
+}
+
+.cert-line {
+  position: relative;
+  background-color: #00ffe0;
+  width: 2px;
+  /* left: -8rem; */
+  margin-top: 2rem;
+  /* height: 2px; */
+}
+
+.cert {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  /* margin-top: 8rem; */
+}
+
+.edu {
+  display: flex;
+  gap: 3rem;
+}
+
+.cert-item {
+  text-align: left;
+  /* max-width: 250px; */
+  color: white;
+}
+
+.cert-dot {
+  position: relative;
+  background-color: #00ffe0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  left: -0.4rem;
+  margin: 1.5rem 0;
+}
+
+.cert-dotLeft {
+  position: relative;
+  background-color: #00ffe0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  right: -6.2rem;
+  margin: 1.5rem 0;
+}
+
+@media (max-width: 768px) {
+  .certifications-section {
+    text-align: center;
+    padding: 4rem 0;
+    width: auto;
+  }
+}

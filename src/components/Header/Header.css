@@ -1,0 +1,79 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /* background-color: #0a192f; */
+  background-color: #000203;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 80px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  gap: 45%;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #64ffda;
+  border: 2px solid #64ffda;
+  padding: 8px 15px;
+  border-radius: 50%;
+  flex-grow: 0;
+}
+
+.nav {
+  flex-grow: 0;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin-left: -25%;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #ccd6f6;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav ul li a:hover {
+  color: #64ffda;
+}
+
+@media (max-width: 768px) {
+  .header {
+    display: none;
+    overflow-x: hidden;
+    width: 100%;
+  }
+}
+
+/* .name {
+    text-decoration: none;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+    font-size: 28px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.navLink {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    cursor: pointer;
+} */

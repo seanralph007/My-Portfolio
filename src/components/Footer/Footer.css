@@ -1,0 +1,13 @@
+.footer-container {
+  text-align: center;
+}
+
+.footer-container p {
+  color: rgba(143, 141, 151, 0.726);
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    width: auto;
+  }
+}

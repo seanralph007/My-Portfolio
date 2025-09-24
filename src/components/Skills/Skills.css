@@ -1,0 +1,126 @@
+.skills-section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.skills-title {
+  font-size: 2.2rem;
+  color: aliceblue;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.skills-subtitle {
+  color: #b3b3b3;
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.skills-box {
+  border: 2px solid #00ffcc;
+  border-radius: 8px;
+  padding: 2rem 3rem;
+  min-width: 280px;
+  max-width: 400px;
+  transition: 0.3s ease;
+}
+
+.skills-box h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #ccc;
+  margin-bottom: 1.5rem;
+  margin-top: -0.8rem;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  gap: 2rem;
+  color: #ccc;
+}
+
+/* .skills-list li {
+    color: #ccc;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+} */
+
+.badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.badge img {
+  height: 30px;
+  width: 30px;
+}
+
+.basic-skills-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  gap: 4rem;
+  color: #ccc;
+}
+
+.basic-skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .skills-section {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    margin: auto;
+    width: auto;
+  }
+
+  .skills-box {
+    border: 2px solid #00ffcc;
+    border-radius: 8px;
+    padding: 2rem 0.5rem;
+    width: auto;
+    /* min-width: 280px;
+    max-width: 400px; */
+    transition: 0.3s ease;
+  }
+
+  .basic-skills-list {
+    gap: 1rem;
+  }
+}
