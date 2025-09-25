@@ -3,6 +3,7 @@ import works2 from "../../assets/work-eg-6.png";
 import works3 from "../../assets/works3.png";
 import works4 from "../../assets/Work4.png";
 import works5 from "../../assets/work-5.png";
+import works6 from "../../assets/Works7.png";
 import reactlogo from "../../assets/Reactlogo.png";
 import Html5logo from "../../assets/HTMLlogo.png";
 import nodelogo from "../../assets/nodelogo.png";
@@ -25,6 +26,15 @@ export const MyWorks = [
     demo: "https://ridemyway-frontend.vercel.app/",
   },
   {
+    title: "Clothing Store App",
+    image: works6,
+    description:
+      "Elegant Fits is a stylish frontend clothing store built with React, TypeScript, and Redux. Users can browse outfits, add them to a cart, and manage their selections through a modern cart system. The cart opens in a sleek modal, showing chosen items, total price, and quantity controls for a smooth shopping experience.",
+    tags: ["React", "TypeScript"],
+    github: "#",
+    demo: "#",
+  },
+  {
     title: "Multi StopWatch",
     image: works5,
     description:
@@ -38,7 +48,7 @@ export const MyWorks = [
     image: works3,
     description:
       "TravelTracker enables users to record and manage a list of countries they’ve visited. It features a clean and responsive interface, allowing users to add entries and store them in a PostgreSQL database. The app is built with a React frontend and a Node.js + Express backend, ensuring smooth performance and reliable data handling.",
-    tags: ["React", "Express", "PostgreSQL"],
+    tags: ["ReactJS", "PostgreSQL", "Express"],
     github: "#",
     demo: "#",
   },

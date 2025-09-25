@@ -49,7 +49,7 @@
 }
 
 img {
-  max-width: 250px;
+  max-width: 260px;
   /* height: 180px; */
   height: 200px;
   width: auto;
@@ -119,6 +119,7 @@ img {
 
   img {
     max-width: 200px;
-    height: auto;
+    height: 170px;
+    /* height: auto; */
   }
 }
