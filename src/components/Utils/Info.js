@@ -58,8 +58,8 @@ export const MyWorks = [
     description:
       "This application allows users to enter a note title and content, then save it for future reference. Designed with simplicity and functionality in mind, the app features a clean user interface that ensures a smooth note-taking experience. It’s ideal for quick memos, to-dos, or ideas on the go.",
     tags: ["React", "CSS", "Vite"],
-    github: "https://github.com/Ify01/Bank-web",
-    demo: "https://dashboard-demo-link.vercel.app",
+    github: "https://github.com/seanralph007/Note-App",
+    demo: "https://note-app-rosy-beta.vercel.app/",
   },
   {
     title: "Simple To-Do List",
@@ -67,8 +67,8 @@ export const MyWorks = [
     description:
       "This app enables users to add, view, and manage their to-do items in a clean, responsive interface. Designed for simplicity and ease of use, the To-Do List App helps users stay organized and track their progress efficiently. With just a click tasks can be removed when completed, offering essential functionality for personal task management.",
     tags: ["React", "CSS", "Vite"],
-    github: "https://github.com/your-bank-repo",
-    demo: "https://hoobank-demo-link.vercel.app",
+    github: "https://github.com/seanralph007/To-Do-app",
+    demo: "https://to-do-app-amber-gamma.vercel.app/",
   },
 ];
 

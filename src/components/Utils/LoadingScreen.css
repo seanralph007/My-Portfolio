@@ -1,0 +1,25 @@
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #020508;
+}
+
+.my-logo {
+  width: 200px;
+  height: 200px;
+  background: url("MyLogo.png") no-repeat center;
+  background-size: contain;
+  animation: logo-spin infinite 2s linear;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
