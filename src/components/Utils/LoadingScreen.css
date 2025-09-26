@@ -10,7 +10,7 @@
 .my-logo {
   width: 200px;
   height: 200px;
-  background: url("MyLogo.png") no-repeat center;
+  background: url("../../assets/MyLogo.png") no-repeat center;
   background-size: contain;
   animation: logo-spin infinite 2s linear;
 }
