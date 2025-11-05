@@ -4,6 +4,7 @@ import works3 from "../../assets/works3.png";
 import works4 from "../../assets/Work4.png";
 import works5 from "../../assets/work-5.png";
 import works6 from "../../assets/Works7.png";
+import works9 from "../../assets/work9.png";
 import reactlogo from "../../assets/Reactlogo.png";
 import Html5logo from "../../assets/HTMLlogo.png";
 import nodelogo from "../../assets/nodelogo.png";
@@ -24,6 +25,15 @@ export const MyWorks = [
     tags: ["React", "Node.js", "PostgreSQL"],
     github: "https://github.com/seanralph007/ridemyway-frontend",
     demo: "https://ridemyway-frontend.vercel.app/",
+  },
+  {
+    title: "Restaurant App",
+    image: works9,
+    description:
+      "9ja Kitchen is a vibrant and modern restaurant web app built with JavaScript, designed to showcase and order traditional Nigerian meals with ease. The interface highlights rich food imagery, smooth navigation, and an intuitive meal selection experience. Users can browse available dishes, add items to a dynamic cart, and choose between multiple payment options — including card payments and pay-on-delivery.",
+    tags: ["React", "JavaScript"],
+    github: "https://github.com/seanralph007/9ja-kitchen",
+    demo: "https://9ja-kitchen.vercel.app/",
   },
   {
     title: "Clothing Store App",
