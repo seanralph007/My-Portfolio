@@ -45,6 +45,15 @@ export const MyWorks = [
     demo: "https://elegant-fits.vercel.app/",
   },
   {
+    title: "Countries Travel Tracker",
+    image: works3,
+    description:
+      "TravelTracker enables users to record and manage a list of countries they’ve visited. It features a clean and responsive interface, allowing users to add entries and store them in a PostgreSQL database. The app is built with a React frontend and a Node.js + Express backend, ensuring smooth performance and reliable data handling.",
+    tags: ["ReactJS", "PostgreSQL", "Express"],
+    github: "https://github.com/seanralph007/Travel-tracker",
+    demo: "https://travel-tracker-gamma-ruddy.vercel.app/",
+  },
+  {
     title: "Multi StopWatch",
     image: works5,
     description:
@@ -52,15 +61,6 @@ export const MyWorks = [
     tags: ["React", "TypeScript"],
     github: "https://github.com/seanralph007/Simple-Timer",
     demo: "https://simple-timer-roan.vercel.app/",
-  },
-  {
-    title: "Countries Travel Tracker",
-    image: works3,
-    description:
-      "TravelTracker enables users to record and manage a list of countries they’ve visited. It features a clean and responsive interface, allowing users to add entries and store them in a PostgreSQL database. The app is built with a React frontend and a Node.js + Express backend, ensuring smooth performance and reliable data handling.",
-    tags: ["ReactJS", "PostgreSQL", "Express"],
-    github: "#",
-    demo: "#",
   },
   {
     title: "Note App",
